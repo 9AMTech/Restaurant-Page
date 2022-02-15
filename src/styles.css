@@ -1,0 +1,181 @@
+/* GENERAL STYLES */
+
+html {
+    /* background-color: rgb(145, 91, 70); */
+    /* background-color: rgb(143, 93, 72); */
+    /* background-color: rgb(155, 104, 80); */
+    background-color: rgb(89, 46, 17);
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+#content {
+    margin: 0 17% 0;
+    padding: 10% 5%;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    height: 95px;
+    /* Light Brown Color */
+    /* background-color: rgba(187, 93, 31, 0.764);
+    color: black; */
+    
+    /* Dark Brown Color */
+    background-color: rgb(89, 46, 17);
+    color: white;
+}
+
+body {
+    background-color: rgb(255, 207, 179);
+}
+
+p {
+    font-size: 20px;
+}
+
+table {
+    font-size: 20px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+
+/* NAV STYLES */
+.logo {
+    padding-left: 10%;
+    flex-basis: 70%;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.logo-text {
+    font-size: 30px;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.nav-bar ul {
+    display: inline-flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0 10vw 0 0;
+}
+
+.nav-bar ul li {
+    cursor: pointer;
+    text-align: center;
+    padding: 38px 0;
+    font-size: 17px;
+    font-weight: 900;
+    width: 105px;
+    letter-spacing: 2px;
+}
+
+.active {
+    background-color: rgb(255, 207, 179);
+    color: black;
+}
+
+/* HOME STYLES */
+
+.grid-home {
+    display: grid;
+    background-color: white;
+    border: 3px solid black;
+    padding: 7% 3%;
+    font-family: sans-serif;
+    align-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100px auto 200px;
+    text-align: -webkit-center;
+}
+
+.quote-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.quote-paragraph {
+    font-size: 37px;
+    font-family: Garamond, serif;
+    font-style: italic;
+}
+
+.logo-section {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.logo-section-image {
+    width: 295px;
+    height: 155px;
+}
+
+.para-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.para-paragraph {
+    padding: 0 15px;
+}
+
+.hours-table-title {
+    margin-top: 0;
+}
+
+table {
+    border-spacing: 40px 5px;
+}
+
+/* MENU STYLES */
+.grid-menu {
+    display: grid;
+    background-color: white;
+    border: 3px solid black;
+    padding: 5%;
+    font-family: sans-serif;
+    align-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 250px);
+    text-align: -webkit-center;
+}
+
+.image-section-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.image-section-2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.contact-wrapper {
+    background-color: white;
+    border: 3px solid black;
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+.contact-wrapper h1 {
+    font-size: 28px;
+}
