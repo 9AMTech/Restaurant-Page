@@ -10,5 +10,5 @@ https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/le
 https://9amtech.github.io/Project8-Restaurant-Page
 
 #### Description
-This website is a single page application that was made with the theme of a restaurant page. It uses differnet Javascript
+This website is a single page application that was made with the theme of a restaurant in mind. It uses different Javascript
 files to dynamically render each pages' content from each imported javascript module.
