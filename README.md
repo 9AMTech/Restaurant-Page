@@ -1,7 +1,7 @@
 # Restaurant Page
 A single page application for a chocolate company, bundled with webpack!
 
-**Link to project:** https://9amtech.github.io/Project8-Restaurant-Page/dist/index.html <br>
+**Link to project:** https://9amtech.github.io/Restaurant-Page/dist/index.html <br>
 **Project Requirements:** https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page#assignment
 
 ![Thumbnail for the restaurant project.](https://github.com/9AMTech/Project8-Restaurant-Page/blob/main/thumbnail.png?raw=true)
