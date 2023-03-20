@@ -1,4 +1,4 @@
-# Project 8 - Restaurant Page
+# Restaurant Page
 A single page application for a chocolate company, bundled with webpack!
 
 **Link to project:** https://9amtech.github.io/Project8-Restaurant-Page/dist/index.html <br>
